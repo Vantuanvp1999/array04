@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function countWord(str){
+    let words = str.trim().split(/\s+/);
+    return words = words.filter(word => word !== "").length;
+    }
+    text = " Day la mot chuoi ";
+    document.write("số từ trong chuỗi là "+countWord(text));
+</script>
+</body>
+</html>
