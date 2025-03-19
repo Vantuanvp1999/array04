@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f113a6-ef31-4f02-b9f9-03e564bde4b4" name="Changes" comment="" />
+    <list default="true" id="05f113a6-ef31-4f02-b9f9-03e564bde4b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/btTrenlop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +23,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2uThVQZ3WEpf1opDucUZwsMV83E" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,7 +37,9 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Module 1/array04",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742278494755</updated>
-      <workItem from="1742278495810" duration="1236000" />
+      <workItem from="1742278495810" duration="2447000" />
+      <workItem from="1742351806100" duration="2057000" />
     </task>
     <servers />
   </component>

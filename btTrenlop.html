@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let sum =0;
+  let sum2=0
+  let a = [2, 3, 4, 5];
+  let a2 = [-2, 3, 4, -5];
+  let a3 = [21, -3, 4, 5];
+  let a4 = [2, 31, 54, 55];
+  let x = [a, a2, a3, a4];
+  for (let i = 0; i < x.length; i++) {
+    for (let j = 0; j < x.length; j++) {
+      sum += x[i][j];
+    }
+  }document.write(sum+"<br>");
+
+  for (let i = 0; i < x.length; i++) {
+    let sum=0;
+    for (let j = 0; j < x[i].length; j++) {
+      sum+=x[i][j];
+    }
+    console.log(`Tong tai hang ${i} la ${sum}`);
+  }
+
+  for (let i = 0; i < x.length; i++) {
+    let sum=0;
+    for (let j = 0; j < x[i].length; j++) {
+      sum+=x[j][i];
+    }
+    console.log(`Tong tai cot ${i} la ${sum}`);
+  }
+  for (let i = 0; i < x.length; i++) {
+    sum2+=x[i][i];
+
+  }
+  let sum3 = 0;
+  for (let i = 0; i < x.length; i++) {
+    sum3+=x[i][x.length -1-i];
+  }
+  document.write(sum2+"<br>");
+  document.write(sum3+"<br>");
+</script>
+</body>
+</html>
